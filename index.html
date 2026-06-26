@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéDex</title>
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <img src="" alt="pokemon" class="pokemon-image">
+
+        <h1 class="pokemon-date">
+            <span class="pokemon-number"></span>
+            <span class="pokemon-name"></span>
+        </h1>
+        <p class="pokemon-type">
+           
+        </p>
+
+        <form action="" class="form">
+            <input type="search" class="input-pkd" placeholder="Nome ou Número" required>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev</button>
+            <button class="button btn-next">Next</button>
+        </div>
+        <div class="buttonF">
+            <button class="btn-favorite">⭐</button>
+        </div>
+        <button class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="menu hidden">
+            <ul>
+                <li id="menu-favorites">⭐ Favoritos</li>
+                <li id="menu-theme">🌙 Tema Escuro</li>
+            </ul>
+        </nav>
+
+        <div class="btn-info-favorites" id="menu-favorites">
+
+            <ul class="favorites-list">
+
+            </ul>
+
+        </div>
+        <img src="img/pokedex.png" alt="Pokedex=img" class="pokedex">
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
